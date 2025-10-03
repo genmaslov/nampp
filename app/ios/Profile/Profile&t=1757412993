@@ -34,10 +34,30 @@
       },
       "codes": [
         {
-          "name": "Газпромнефть",
-          "logo": "https://www.gpnbonus.ru/upload/rennab/53/160px.png",
+          "name": "Нам по пути",
+          "logo": "",
           "is_internal": true,
-          "data": []
+          "data": [
+            {
+              "title": "Персональная рекомендация от Катюши 2",
+              "name": "Нам по пути",
+              "description": "По карте *4232 купите  и получите  % от стоимости товара бонусами",
+              "code_type": "text",
+              "is_internal": true,
+              "code": "K150112FTHXJN9X",
+              "card": "7825689909024232",
+              "use_date": null,
+              "image": "",
+              "image_ratio": 2.45,
+              "logo": "",
+              "url": "",
+              "rules": "https://www.gpnbonus.ru/on_the_way/pravila_programmy/",
+              "activation_date": 1756386670,
+              "active_before": 1772286740,
+              "assign_date": 1736939330,
+              "code_display": "K150112FTHXJN9X"
+            }
+          ]
         }
       ],
       "main": {
@@ -145,56 +165,25 @@
         "enable_lock_button": true
       }
     ],
-    "banners": [
-      {
-        "title": "«Кофе заправляет»",
-        "image": "https://gpnbonus.ru/storage/files/2025/001promo/03march25/1703fra/slider.jpg",
-        "image_ratio": 3.72826087,
-        "url": "https://gpnbonus.ru/promotions/850",
-        "partner_id": "",
-        "sort": 6031,
-        "slug": "kofe-zapravlyaet"
-      },
-      {
-        "title": "ЦМК мес персотег",
-        "image": "https://gpnbonus.ru/storage/files/2025/001promo/03march25/0103cmk_np/slider.jpeg",
-        "image_ratio": 3.72826087,
-        "url": "https://gpnbonus.ru/promotions/847",
-        "partner_id": "",
-        "sort": 6030,
-        "slug": "cmk-mes-persoteg"
-      },
-      {
-        "title": "«4-ый Кофе»",
-        "image": "https://www3.gpnbonus.ru:443/upload/4coffee/4-noactivate.png",
-        "image_ratio": 3.72826087,
-        "url": "https://testgetslider.gpnbonus.ru/auth_4coffee/?v=2",
-        "partner_id": "22032002",
-        "sort": 6024,
-        "slug": "4-yy-kofe"
-      },
-      {
-        "title": "информировании пользователей iOS",
-        "image": "https://gpnbonus.ru/storage/files/2025/001promo/01jan25/2101slider/01.png",
-        "image_ratio": 3.72826087,
-        "url": "https://gpnbonus.ru/news/311",
-        "partner_id": "",
-        "sort": 6020,
-        "slug": "informirovanii-polzovateley-ios"
-      }
-    ],
+    "banners": [],
     "buttons": [
       {
         "slug": "promocodes",
         "title": "Промо­коды",
-        "icon": "https://www3.gpnbonus.ru/upload/buttons/promo-codes.png",
+        "icon": "promo-codes.pdf",
         "url": "gpn://cabinet-screen/promocodes"
       },
       {
         "slug": "orders_history",
         "title": "История заказов",
-        "icon": "https://www3.gpnbonus.ru/upload/buttons/orders-history.png",
+        "icon": "orders-history.pdf",
         "url": "gpn://cabinet-screen/orders_history"
+      },
+      {
+        "slug": "charity",
+        "title": "Благотвори­тельность",
+        "icon": "charity.pdf",
+        "url": "gpn://cabinet-screen/charity"
       }
     ],
     "checksum": "3de0a218a01e809ef216d7df3d7231af"

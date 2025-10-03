@@ -83,7 +83,7 @@
       {
         "number": "7825686000143824",
         "virtual_number": "",
-        "virtual_gaid": "",
+        "virtual_gaid": "E7F5C1AB-BFF3-4402-B133-126768F35324",
         "virtual_allowed": true,
         "referral_code": "",
         "contact_id": "1-7P48RJ",
@@ -110,7 +110,49 @@
         "bonuses": 9955,
         "bonuses_expiration_soon": false,
         "amount_current_month": 0,
-        "is_active": true,
+        "is_active": false,
+        "is_virtual": true,
+        "is_cobrand": false,
+        "is_platinum": false,
+        "is_ogon": false,
+        "tariff": null,
+        "min_transfer_bonuses": "250",
+        "max_transfer_bonuses": "1000",
+        "percent_transfer_bonuses": "2",
+        "last_transaction_date": null,
+        "enable_lock_button": true
+      },
+      {
+        "number": "1234123412341234",
+        "virtual_number": "1234123412341234",
+        "virtual_gaid": "E7F5C1AB-BFF3-4402-B133-126768F35324",
+        "virtual_allowed": true,
+        "referral_code": "",
+        "contact_id": "1-7P48RJ",
+        "row_id": "1-7P48RZ",
+        "status": "Серебро",
+        "card_type": "bonus",
+        "card_status": {
+          "available": [
+            {
+              "name": "Серебряный",
+              "min_amount": 0
+            },
+            {
+              "name": "Золотой",
+              "min_amount": 100
+            },
+            {
+              "name": "Платиновый",
+              "min_amount": 300
+            }
+          ],
+          "current": "Серебряный"
+        },
+        "bonuses": 0,
+        "bonuses_expiration_soon": false,
+        "amount_current_month": 0,
+        "is_active": false,
         "is_virtual": true,
         "is_cobrand": false,
         "is_platinum": false,
@@ -153,7 +195,7 @@
   "enable_anagog": false,
   "enable_lizaalert": true,
   "enable_cabinet_rating": true,
-  "enable_apple_wallet": true,
+  "enable_apple_wallet": false,
   "enable_stories": true,
   "enable_lk_scanner": true,
   "enable_lk_coffee_scanner": true,
