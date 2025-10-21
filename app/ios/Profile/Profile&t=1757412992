@@ -165,7 +165,17 @@
         "enable_lock_button": true
       }
     ],
-    "banners": [],
+    "banners": [
+        {
+            "title": "Пример",
+            "image": "https://nampp.ru/app/src/banner.png",
+            "image_ratio": 3.72826087,
+            "url": "https://nampp.ru",
+            "partner_id": "",
+            "sort": 1,
+            "slug": "primer"
+        }
+    ],
     "buttons": [
       {
         "slug": "promocodes",
